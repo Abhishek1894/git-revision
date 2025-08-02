@@ -26,5 +26,9 @@ public class Application
         System.out.println("Here we will calculate factorail of some number");
         System.out.println(Factorial.fact(5));
 
+
+        System.out.println("Here we will calculate the fibonacci of the number");
+        System.out.println(Fibonacci.fib(7));
+
     }    
 }
