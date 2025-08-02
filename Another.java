@@ -1,3 +1,4 @@
+
 public class Another<T extends Number>
 {
     T [] array;
