@@ -23,5 +23,8 @@ public class Application
         Another<Double> another = new Another<>(nums);
         System.out.println(another.sum().doubleValue());
 
+        System.out.println("Here we will calculate factorail of some number");
+        System.out.println(Factorial.fact(5));
+
     }    
 }
