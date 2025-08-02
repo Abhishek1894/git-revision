@@ -21,4 +21,13 @@ public class Another<T extends Number>
 
         return (T) (Number) sum;
     }
+
+    public T product()
+    {
+        double ans = 1;
+        for(int i = 0; i < array.length; i++)
+            ans *= array[i].doubleValue();
+
+        return (T) (Number) ans;
+    }
 }
