@@ -30,5 +30,8 @@ public class Application
         System.out.println("Here we will calculate the fibonacci of the number");
         System.out.println(Fibonacci.fib(7));
 
+        System.out.println("Here we will check if strings are palindrome");
+        System.out.println(Palindrome.check("abhishek", "kehsihba"));
+
     }    
 }
